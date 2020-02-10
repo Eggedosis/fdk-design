@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/*  L A Y O U T  */
+
+.dsDivider {
+  border-color: #DEE3E8;
+  width: 100%;
+  float: none;
+  margin: 4em 0em 1em 0em; }
+  
+.dsDividerSection {
+  width: 100%;
+  border-top: 2px solid #DEE3E8;
+  margin: 8em 0 8em 0; }
+  

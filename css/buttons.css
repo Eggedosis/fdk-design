@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+
+.fdkBtn {
+  background-color: #333;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  padding: .8em .9em;
+  border-radius: 4px;
+  border: none;
+  margin: 10px 10px 0px 0px; }
+
+/* PRIMARY */
+.fdkBtnPrimary {
+  color: #fff;
+  background-color: #0069A5;
+  box-shadow: 0 2px 4px rgba(0, 74, 115, 0.35); }
+
+.fdkBtnPrimary:hover {
+  background-color: #005484;
+  box-shadow: 0 5px 10px rgba(0, 74, 115, 0.35); }
+
+.fdkBtnPrimary:disabled {
+  color: #fff;
+  background-color: rgba(108, 115, 122, 0.3);
+  box-shadow: none; }
+
+.fdkBtnPrimarySelected {
+  background-color: #2D3741;
+  box-shadow: none; }
+
+.fdkBtnPrimarySelected:hover {
+  background-color: #2D3741;
+  box-shadow: none; }
+
+/* SECONDARY */
+.fdkBtnSecondary {
+  color: #005484;
+  background-color: #CCE1ED;
+  box-shadow: 0 2px 4px rgba(140, 187, 214, 0.35); }
+
+.fdkBtnSecondary:hover {
+  background-color: #A6CADF;
+  box-shadow: 0 5px 10px rgba(140, 187, 214, 0.35); }
+
+.fdkBtnSecondary:active {
+  background-color: #A6CADF;
+  box-shadow: none; }
+
+.fdkBtnSecondary:disabled {
+  color: #fff;
+  background-color: rgba(108, 115, 122, 0.3);
+  box-shadow: none; }
+
+.fdkBtnSecondarySelected {
+  background-color: #2D3741;
+  color: #fff;
+  box-shadow: none; }
+
+.fdkBtnSecondarySelected:hover {
+  background-color: #2D3741;
+  color: #fff;
+  box-shadow: none; }
+
+
+
+.fdkButtonPrimary {
+  background-color: var(--fdk-bg-color-blue-dark);
+  border-radius: 3px;
+  box-shadow: 0 2px 4px rgba(45, 55, 65, 0.2);
+}
+
+
+.fdk-button-small {
+  line-height: 1.6rem;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0.3em 0 0 0;
+  margin: 0;
+  display: inline-block;
+  background-image: none;
+  background: none;
+  text-shadow: none;
+  text-align: center;
+  color: var(--color1);
+  border: none;
+  border-bottom: 1px solid var(--color1); }
+
+.fdk-button-small:hover {
+  border-bottom: none;
+  padding-bottom: 1px; }
+
+.fdk-button-small:active {
+  border-bottom: none;
+  padding-bottom: 0;
+  border-bottom: 1px solid var(--color1); }
+
+.fdk-button-danger {
+  color: var(--color-red3); }
+
+.fdk-button-default, .fdk-button-default-no-hover {
+  background-color: #AAE6FF;
+  color: #2D3741; }
+
+.fdk-button-default:hover, .fdk-button-default:focus .fdk-button-default:active .open > .fdk-button-default {
+  border-radius: 3px;
+  border: 3px solid #AAE6FF;
+  margin: 0px -1px 2px 0px;
+  box-shadow: 0 4px 8px rgba(45, 55, 65, 0.2); }
+
+.fdk-button-default-no-hover:hover, .fdk-button-default-no-hover:focus, .fdk-button-default-no-hover:active {
+  border-radius: 3px;
+  border: 0 !important;
+  margin: 3px 2px 5px 3px;
+  box-shadow: 0 4px 8px rgba(45, 55, 65, 0.2); }
+
+.fdk-button-cta {
+  background-color: #2D3741;
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(45, 55, 65, 0.3); }
+
+.fdk-button-big {
+  font-size: 1.875rem;
+  line-height: 1.875rem;
+  box-shadow: 0 2px 4px rgba(45, 55, 65, 0.2);
+  padding: 15px 17px; }
+
+.fdk-button:disabled {
+  border: 1px dashed #646E78;
+  color: #646E78;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0); }
+
+.fdk-button-dropdown {
+  background-color: #AAE6FF;
+  color: #2D3741; }
+
+.fdk-button-dropdown:hover {
+  border-radius: 3px;
+  border: 3px solid #AAE6FF;
+  box-shadow: 0 4px 8px rgba(45, 55, 65, 0.2); }
+
+.fdk-button-big:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  padding: 15px 17px;
+  margin: 3px 2px 5px 3px;
+  border: none; }
+
+.fdk-button-small:disabled {
+  color: #A0A5AA;
+  border: none;
+  padding-bottom: 3px; }
+
+.fdk-button-danger {
+  color: #C80041;
+  border-bottom: 1px solid #C80041; }
+
+/* fonts */
+a > .fdk-button {
+  text-decoration: none;
+  font-weight: 400;
+  color: #2D3741; }
+
+a > .fdk-button-cta {
+  text-decoration: none;
+  font-weight: 400;
+  color: #ffffff; }
+
+.fdk-button-format > i {
+  color: #ffffff; }
+
+.fdk-button-small > .fa {
+  margin-right: 3px;
+  color: #2D3741;
+  margin-right: 3px; }
+
+.fdk-button-small:disabled > .fa {
+  color: #A0A5AA; }
+
+.fdk-button-danger > .fa {
+  color: #C80041; }

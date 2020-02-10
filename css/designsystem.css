@@ -1,0 +1,36 @@
+.dsHeader1 {
+  background-color: #eee;
+  color: #2D3741;
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 120px 0 0 0;
+  width: 100%;
+}
+
+.dsHeader2 {
+  background-color: #eee;
+  color: #6C737A;
+  font-size: 1.2rem;
+  font-weight: 300;
+  border-bottom: 1px solid #ddd;
+  padding: 60px 0 10px 0;
+  margin: 0 0 20px 0;
+  width: 100%;
+}
+
+.dsMenu {
+  background-color: red;
+  width: 200px;
+  padding: 1.5em 1em;
+  float: left;
+}
+
+.dsContainer {
+  background-color: yellow;
+  width: 100%;
+}
+
+.dsIframe {
+  width: auto;
+  border: none;
+}

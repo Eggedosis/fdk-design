@@ -1,0 +1,123 @@
+/* B O D Y */
+.dsBody {
+  background-color: #EEEFF0 !important;
+  padding: 0 0 100px 0; }
+
+
+/* H E A D E R */
+.dsHeaderWide {
+  background-color: #fff;
+  width: 100%; }
+
+.dsMenuHeader {
+  padding: 0; }
+
+.dsMenuHeaderText {
+  color: #2D3741;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 0;
+  top: 50%;
+  transform: translate(170%, -50%); }
+
+.dsLogo {
+  float: left;
+  margin-right: 50px;
+  height: 100%; }
+
+
+/*  H E A D I N G S */
+.dsMenuH1 {
+  background-color: #2D3741;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  line-height: 1;
+  margin-top: 60px;
+  padding: 1.1rem 2rem 1rem 2.1rem;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #EEEFF0; }
+
+.dsMenuH3 {
+  color: #2D3741;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  padding: 0;
+  margin: 0; }
+
+
+/* P A R A G R A P H */
+.dsMenuCardP {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #969BA0;
+  margin: 1rem 0 1rem 0rem; }
+
+.dsMenuA {
+  text-decoration: none;
+  color: #0069A5; }
+
+.dsMenuA:hover {
+  text-decoration: underline;
+  color: #2D3741  ; }
+
+
+/* A C C O R D I O N */
+.accordion {
+  width: 100%; }
+
+.dsMenuCard {
+  border: 1px solid #EEEFF0 !important; }
+
+
+/* A C C O R D I O N   L E V E L  1 */
+
+.dsMenuCardHeader {
+  font-weight: 200;
+  font-size: 2.2rem;
+  background-color: #fff; }
+
+.dsMenuCardHeaderTypo {
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #0069A5;
+  text-decoration: none; }
+
+.dsMenuCardHeaderTypo:hover {
+  color: #2D3741; }
+
+.dsMenuCardHeader:hover .dsMenuCardHeader:focus {
+  text-decoration: none !important;
+  color: var(--fdkColorPrimaryLight); }
+
+.btn-link:hover {
+  text-decoration: none; }
+
+.btn-link:focus {
+  text-decoration: none; }
+
+.btn-link.focus {
+  text-decoration: none; }
+
+.dsMenuCatalog {
+  width: 32px;
+  margin-right: 10px; }
+
+
+/* C O N T E N T   L E V E L   1 */
+.dsMenuCardBody {
+  background-color: #F7F7F7;
+  padding: 2rem; }
+
+.dsMenuDivider {
+  margin-top: 3rem; }
+
+
+/* I F R A M E */
+.dsMenuIframe {
+  width: 100%;
+  height: 100%; }
