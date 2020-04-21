@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 .fdkBtn {
   background-color: #333;
   font-size: 1.6rem;
@@ -13,11 +12,11 @@
 /* PRIMARY */
 .fdkBtnPrimary {
   color: #fff;
-  background-color: #0069A5;
+  background-color: var(--fdkColorNeutralDarker);
   box-shadow: 0 2px 4px rgba(0, 74, 115, 0.35); }
 
 .fdkBtnPrimary:hover {
-  background-color: #005484;
+  background-color: var(--fdkColorNeutralDarkest);
   box-shadow: 0 5px 10px rgba(0, 74, 115, 0.35); }
 
 .fdkBtnPrimary:disabled {
@@ -26,40 +25,41 @@
   box-shadow: none; }
 
 .fdkBtnPrimarySelected {
-  background-color: #2D3741;
+  background-color: var(--fdkColorNeutralDarkest);
   box-shadow: none; }
 
 .fdkBtnPrimarySelected:hover {
-  background-color: #2D3741;
+  background-color: var(--fdkColorNeutralDarkest);
   box-shadow: none; }
 
 /* SECONDARY */
 .fdkBtnSecondary {
-  color: #005484;
-  background-color: #CCE1ED;
+  color: var(--fdkColorNeutralDarker);
+  background-color: var(--fdkColorNeutralLight);
   box-shadow: 0 2px 4px rgba(140, 187, 214, 0.35); }
 
 .fdkBtnSecondary:hover {
-  background-color: #A6CADF;
+  background-color: var(--fdkColorNeutralDarkest);
+  color: var(--fdkColorWhite);
   box-shadow: 0 5px 10px rgba(140, 187, 214, 0.35); }
 
 .fdkBtnSecondary:active {
-  background-color: #A6CADF;
+  background-color: var(--fdkColorNeutralDarkest);
   box-shadow: none; }
 
 .fdkBtnSecondary:disabled {
-  color: #fff;
+  color: var(--fdkColorWhite);
   background-color: rgba(108, 115, 122, 0.3);
   box-shadow: none; }
 
 .fdkBtnSecondarySelected {
-  background-color: #2D3741;
-  color: #fff;
+  background-color: var(--fdkColorNeutralDarkest);
+  color: var(--fdkColorWhite);
   box-shadow: none; }
 
 .fdkBtnSecondarySelected:hover {
-  background-color: #2D3741;
-  color: #fff;
+  background-color: var(--fdkColorNeutralDarkest);
+  color: var(--fdkColorWhite);
   box-shadow: none; }
 
 
