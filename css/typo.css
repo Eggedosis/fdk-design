@@ -1,3 +1,10 @@
+p {
+  color: var(--fdkNeutralDarker);
+  font-family: "Heebo";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px; }
+
 .fdkA {
   color: #0069A5;
   text-decoration: underline; }
