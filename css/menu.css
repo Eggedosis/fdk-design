@@ -44,7 +44,9 @@
 .dsMenuH3 {
   color: #2D3741;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
   border: none;
   padding: 0;
   margin: 0; }
@@ -59,11 +61,11 @@
 
 .dsMenuA {
   text-decoration: none;
-  color: #0069A5; }
+  color: #2D3741; }
 
 .dsMenuA:hover {
-  text-decoration: underline;
-  color: #2D3741  ; }
+  text-decoration: none;
+  color: #2D3741; }
 
 
 /* A C C O R D I O N */
@@ -84,11 +86,11 @@
 .dsMenuCardHeaderTypo {
   font-weight: 300;
   font-size: 1.8rem;
-  color: #0069A5;
+  color: #2D3741;
   text-decoration: none; }
 
 .dsMenuCardHeaderTypo:hover {
-  color: #2D3741; }
+  color: #6C737A; }
 
 .dsMenuCardHeader:hover .dsMenuCardHeader:focus {
   text-decoration: none !important;

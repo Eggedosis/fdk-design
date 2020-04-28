@@ -136,7 +136,7 @@
 a {
   color: var(--fdkColorNeutralDarker);
   text-decoration: none;
-  border-bottom: 1.5px solid var(--fdkColorNeutralDarker); }
+  border-bottom: 1px solid var(--fdkColorNeutralDarker); }
 
 a:hover {
   color: var(--fdkColorNeutralDarker);
