@@ -1,18 +1,21 @@
 @charset "UTF-8";
 
+/* icon size for primary and secondary buttons */
 .fdkIconButton {
   height: 16px;
   width: 16px;
   padding: 0;
   margin: 0 4px 0 0; }
 
+/* icon size for tertiary buttons */
 .fdkIconButtonTertiary {
   height: 18px;
   width: 16px;
   padding-bottom: 2px;
   margin: 0 4px 0 0; }
 
-/* BUTTON */
+
+/* primary and secodary button shape */
 .fdkBtn {
   background-color: #333;
   font-size: 16px;
@@ -23,7 +26,20 @@
   border: none;
   margin: 0px 10px 0px 0px; }
 
-/* PRIMARY */
+.fdkBtnLeft {
+  border-radius: 4px 0px 0px 4px;
+  margin: 0; }
+
+.fdkBtnCenter {
+  border-radius: 0;
+  margin: 0; }
+
+.fdkBtnRight {
+  border-radius: 0px 4px 4px 0px;
+  margin: 0; }
+
+
+/* primary button styling */
 .fdkBtnPrimary {
   color: var(--fdkColorWhite);
   background-color: var(--fdkColorNeutralDarker);
@@ -51,7 +67,8 @@
   background-color: var(--fdkColorNeutralDarkest);
   box-shadow: none; }
 
-/* SECONDARY */
+
+/* seconary button styling */
 .fdkBtnSecondary {
   color: var(--fdkColorNeutralDarker);
   background-color: var(--fdkColorNeutralLight);
@@ -74,7 +91,8 @@
 .fdkBtnSecondarySelected {
   background-color: var(--fdkColorNeutralDarkest);
   color: var(--fdkColorWhite);
-  box-shadow: none; }
+  box-shadow: none;
+  padding: 14px 22px 14px 22px; }
 
 .fdkBtnSecondarySelected:hover {
   background-color: var(--fdkColorNeutralDarkest);
@@ -82,6 +100,7 @@
   box-shadow: none; }
 
 
+/* tertiary button styling */
 .fdkBtnTertiary {
   color: var(--fdkColorNeutralDarker);
   font-size: 16px;
@@ -103,3 +122,23 @@
 .fdkBtnTertiary:hover {
   border-bottom: none;
   padding-bottom: 1px; }
+
+
+/* link styling */
+
+/* icon size for primary and secondary buttons */
+.fdkIconExternal {
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  margin: 0 0 2px 4px; }
+
+a {
+  color: var(--fdkColorNeutralDarker);
+  text-decoration: none;
+  border-bottom: 1.5px solid var(--fdkColorNeutralDarker); }
+
+a:hover {
+  color: var(--fdkColorNeutralDarker);
+  text-decoration: none;
+  border-bottom: none; }
