@@ -18,10 +18,11 @@
 /* primary and secodary button shape */
 .fdkBtn {
   background-color: #333;
+  font-family: 'Heebo';
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 0.25px;
-  padding: 14px 22px 16px 22px;
+  padding: 16px 22px 16px 22px;
   border-radius: 4px;
   border: none;
   margin: 0px 10px 0px 0px; }
@@ -61,7 +62,7 @@
 .fdkBtnPrimarySelected {
   background-color: var(--fdkColorNeutralDarkest);
   box-shadow: none;
-  padding: 14px 22px 14px 22px; }
+  padding: 16px 22px 16px 22px; }
 
 .fdkBtnPrimarySelected:hover {
   background-color: var(--fdkColorNeutralDarkest);
@@ -92,7 +93,7 @@
   background-color: var(--fdkColorNeutralDarkest);
   color: var(--fdkColorWhite);
   box-shadow: none;
-  padding: 14px 22px 14px 22px; }
+  padding: 16px 22px 16px 22px; }
 
 .fdkBtnSecondarySelected:hover {
   background-color: var(--fdkColorNeutralDarkest);
@@ -124,6 +125,21 @@
   padding-bottom: 1px; }
 
 
+/* dropdown styling */
+.fdkDropdownMenu {
+  padding: 6px 0;
+  border: 0;
+}
+
+.fdkDropdownItem {
+  font-family: 'Heebo';
+  padding: 8px 20px; }
+
+.fdkDropdownItem:hover {
+  color: #fff;
+  background-color: var(--fdkColorNeutralDarker); }
+
+
 /* link styling */
 
 /* icon size for primary and secondary buttons */
@@ -142,3 +158,9 @@ a:hover {
   color: var(--fdkColorNeutralDarker);
   text-decoration: none;
   border-bottom: none; }
+
+/*autosave*/
+.fdkAutosave {
+  padding: 20px;
+  background-color: var(--fdkNeutralLight);
+}

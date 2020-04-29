@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900">
   </head>
-  <body style="background-color: #EEEFF0;">
+  <body style="background-color: #EEEFF0; padding-bottom: 50px;">
 
     <div class="container">
       <!-- PRIMARY -->
@@ -30,6 +30,7 @@
         <img class="fdkIconButton" src="img/icon-checked-sm.png">Selected</button>
       <button type="button" class="fdkBtn fdkBtnSecondary" disabled>Disabled</button><br>
       <button type="button" class="fdkBtn fdkBtnSecondary fdkBtnLeft">Default</button><button type="button" class="fdkBtn fdkBtnCenter fdkBtnSecondarySelected"><img class="fdkIconButton" src="img/icon-checked-sm.png">Selected</button><button type="button" class="fdkBtn fdkBtnSecondary fdkBtnRight">Default</button>
+
       <!-- TERTIARY -->
       <div class="dsHeader2">Tertiary</div>
       <button type="button" class="fdkBtnTertiary">
@@ -37,19 +38,34 @@
       <button type="button" disabled class="fdkBtnTertiary" disabled>
         <img class="fdkIconButtonTertiary" src="img/icon-remove-circel-disabled-sm.png">Disabled</button>
       </div>
+      <!-- DROPDOWN -->
+      <div class="dsHeader2">Dropdown</div>
+      <div class="dropdown">
+        <button class="fdkBtn fdkBtnSecondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </button>
+        <div class="dropdown-menu fdkDropdownMenu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item fdkDropdownItem" href="#">Dette er første linje</a>
+          <a class="dropdown-item fdkDropdownItem" href="#">Dette er andre linje</a>
+          <a class="dropdown-item fdkDropdownItem" href="#">Dette er tredje linje</a>
+        </div>
+      </div>
 
       <!-- LINKS -->
       <div class="dsHeader1">Links<div>
       <!-- REGULAR -->
-      <div class="dsHeader2">Internal</div>
-        <p>Dette er en setning med en lenke til <a href="https://eggedosis.github.io/fdk-design/menu.html">menyen</a>.<br>
-          Dette er en setning uten lenke.
+      <div class="dsHeader2" style="margin-bottom: 30px;">Internal</div>
+        <p><a href="https://eggedosis.github.io/fdk-design/menu.html">Gå til oversikt</a> er en intern lenke.
         <p/>
       </div>
 
       <!-- EXTERNAL -->
-      <div class="dsHeader2">External</div>
-        <p><a href="https://eggedosis.github.io/fdk-design/menu.html" target="_blank">Felles dataktalog<img class="fdkIconExternal" src="img/icon-link-external-body-sm.svg"></a>
+      <div class="dsHeader2" style="margin-bottom: 30px;">External</div>
+        <p>
+          <a href="https://eggedosis.github.io/fdk-design/menu.html" target="_blank">Felles dataktalog<img class="fdkIconExternal" src="img/icon-link-external-body-sm.svg"></a>
+          er en ekstern lenke.
+        </p>
+      </div>
     </div>
 
     <!-- Optional JavaScript -->
